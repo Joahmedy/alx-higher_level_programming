@@ -1,6 +1,7 @@
-#!/usr/bin/env python3
-add = __import__('10-add').add
+#!/usr/bin/python3
+# Author - Godswill Kalu
 
-print(add(1, 2))
-print(add(98, 0))
-print(add(100, -2))
+i = 0
+for c in range(ord('z'), ord('a') - 1, -1):
+    print("{}".format(chr(c - i)), end="")
+    i = 32 if i == 0 else 0
