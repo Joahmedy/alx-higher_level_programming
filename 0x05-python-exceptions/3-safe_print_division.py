@@ -11,5 +11,5 @@ def safe_print_division(a, b):
     except:
         res = None
     finally:
-        print("Inside result: {:d}".format(res))
+        print("Inside result: {:s}".format(res))
     return res
